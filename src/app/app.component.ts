@@ -14,6 +14,8 @@ export class MyApp {
 
   rootPage: any = HomePage;
 
+  textoActual: string = "-";
+
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
@@ -41,4 +43,6 @@ export class MyApp {
     // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
   }
+
+  
 }

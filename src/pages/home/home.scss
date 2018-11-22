@@ -1,3 +1,97 @@
-page-home {
+ion-header{
+    height: 10vh;
+}
 
+.content{
+    height: 100vh;
+    width: 100vw;
+    background-color: #333;
+}
+
+.text{
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+    padding-top: 20vh;
+    color: #bbb;
+    font-size: 3vh;
+}
+
+.controls{
+    text-align: center;
+    height: 20vh;
+    width: 100vw;
+}
+
+ion-content{
+    height: 100vh;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    display: table-cell;
+}
+
+input{
+    height: 4vh;
+    margin: 0px;
+    width: 30vw;
+}
+
+button{
+    height: 5vh;
+    margin: 0px;
+    width: 30vw;
+}
+
+p{
+    text-align: center;
+    width: 20vh;
+    margin-left: 6.9vh;
+    color: #fff;
+    font-size: 3vh;
+    text-shadow:
+        -1.5px -1.5px 0 #000,  
+        1.5px -1.5px 0 #000,
+        -1.5px 1.5px 0 #000,
+        1.5px 1.5px 0 #000;
+}
+
+.card{
+    display: inline-block;
+    margin-right: auto;
+    width: 33.8vh;
+    height: 54vh;
+    padding-top: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-size: cover;
+    transform: rotateY(0deg);
+}
+
+.card1{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zzzroot-5726b.appspot.com/o/1b.png?alt=media&token=8efe3db9-9b8c-4e28-98bc-ac6c3aba914a");
+}
+
+.card2{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zzzroot-5726b.appspot.com/o/2b.png?alt=media&token=40130e9c-ec82-41e3-8449-2d4ef74ef6e1");
+}
+
+.card3{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zzzroot-5726b.appspot.com/o/3b.png?alt=media&token=15ae24e6-1549-43bb-96f5-5d9993020f0a");
+}
+
+.card4{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zzzroot-5726b.appspot.com/o/4b.png?alt=media&token=faf4985e-0e61-4e74-878e-e1a2eed7bbd6");
+}
+
+.card5{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zzzroot-5726b.appspot.com/o/5b.png?alt=media&token=a5cb84c9-67ae-451f-90fa-fc8881d17304");
+}
+
+.card6{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zzzroot-5726b.appspot.com/o/6b.png?alt=media&token=a718c3ee-66f6-49b0-b4a7-702169dfedf5");
+}
+
+.card7{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/zzzroot-5726b.appspot.com/o/7b.png?alt=media&token=3fc9eecd-e914-4ca6-a588-58c6b3977650");
 }
